@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<odoo>
+<!--    modify group name-->
+    <record id="library.library_group_user" model="res.groups">
+        <field name="name">Mad Librarian</field>
+    </record>
+</odoo>

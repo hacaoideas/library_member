@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <record id="action_library_members" model="ir.actions.act_window">
+        <field name="name">Library Members</field>
+        <field name="res_model">library.member</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+<!--This is the way that I can virtually declare everything. -->
+<!--    Do not rely on shortcut is the best way to do things. -->
+
+    <record id="menu_library_member" model="ir.ui.menu">
+        <field name="name">Library Members</field>
+        <field name="action" ref="action_library_members"/>
+        <field name="parent_id" ref="library.menu_library"/>
+    </record>
+
+</odoo>
