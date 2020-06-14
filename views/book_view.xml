@@ -7,6 +7,7 @@
         <field name="arch" type="xml">
             <field name="isbn" position="after">
                 <field name="is_available" />
+                <field name="review_date"/>
             </field>
         </field>
     </record>
